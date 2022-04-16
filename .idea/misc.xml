@@ -9,12 +9,16 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_menu_nav.xml" value="0.111" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_menu_search.xml" value="0.111" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_menu_star.xml" value="0.111" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_menu_time.xml" value="0.111" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_no_food.xml" value="0.111" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_no_meals.xml" value="0.111" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_restaurant_menu.xml" value="0.111" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/fragment_cart.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/fragment_cuisine_detail.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/fragment_home.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/fragment_search.xml" value="0.25" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/item.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/item.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/item_cart.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1841880341880342" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/menu/top_app_bar.xml" value="0.1841880341880342" />

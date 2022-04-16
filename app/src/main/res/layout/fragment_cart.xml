@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".CartFragment">
 
@@ -12,16 +13,24 @@
         android:text="Your Cart"
         android:textSize="16pt"
         android:gravity="center"
-        android:layout_marginTop="25dp">
+        android:layout_marginTop="20dp">
     </TextView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_item_cart"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         tools:listitem="@layout/item_cart">
     </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:dividerColor="?android:attr/textColorSecondary">
+    </com.google.android.material.divider.MaterialDivider>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -29,7 +38,7 @@
         android:layout_margin="10dp">
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/card_cart"
+            android:id="@+id/card_cart_total_price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -44,14 +53,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textSize="10pt"
-                        android:layout_margin="15dp">
+                        android:layout_margin="20dp">
                     </TextView>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Total: $16.48"
                         android:textSize="10pt"
-                        android:layout_margin="15dp">
+                        android:layout_margin="20dp">
                     </TextView>
                 </TableRow>
             </TableLayout>
