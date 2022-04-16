@@ -47,7 +47,7 @@
                     android:layout_margin="20dp">
                 </TextView>
                 <TextView
-                    android:id="@+id/item_amount"
+                    android:id="@+id/item_cart_amount"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="1"

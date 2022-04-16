@@ -3,6 +3,7 @@ package com.example.canteenblueapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -14,6 +15,8 @@ public class Detail extends AppCompatActivity {
     TextView tvName;
     TextView tvPrice;
     ImageView img;
+    Button btnAddCart;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,5 +33,11 @@ public class Detail extends AppCompatActivity {
             tvPrice.setText(String.valueOf(item.getPrice()));
 
         }
+
+//        btnAddCart.setOnClickListener( view -> { addToCart(); });
     }
+
+//    private void addToCart (){
+//
+//    }
 }
