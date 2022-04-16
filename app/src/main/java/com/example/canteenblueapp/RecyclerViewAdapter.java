@@ -16,13 +16,19 @@ import com.bumptech.glide.request.RequestOptions;
 
 import java.util.ArrayList;
 
-
+interface OnItemClickCallback {
+    void onItemClicked(item item);
+}
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ListViewHolder>{
 
     private final ArrayList<item> listItem;
-    private Button btn_item;
 
+    private OnItemClickCallback onItemClickCallback;
+
+    public void setOnItemClickCallback(OnItemClickCallback onItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback;
+    }
 
     public RecyclerViewAdapter(ArrayList<item>list){
         this.listItem = list;
@@ -46,7 +52,12 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         holder.item_name.setText(item.getName());
         holder.item_price.setText(String.valueOf(item.getPrice()));
-
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onItemClickCallback.onItemClicked(item);
+            }
+        });
     }
 
     @Override
@@ -64,14 +75,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             item_name = itemView.findViewById(R.id.item_name);
             item_price = itemView.findViewById(R.id.item_price);
 
-//            btn_item.findViewById(R.id.item_btn).setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View view) {
-//                    Intent moveIntent1 = new Intent(SearchFragment.this, CuisineDetailFragment.class);
-//                    moveIntent1.putExtra(foodDetail.ITEM_EXTRA, food);
-//                    startActivity(moveIntent1);
-//                }
-//            });
         }
     }
 }

@@ -65,15 +65,14 @@ public class SearchFragment extends Fragment {
         RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(item);
         recyclerView.setAdapter(recyclerViewAdapter);
 
-        //btn to detail
-//        btn_item.findViewById(R.id.item_btn).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(getActivity(),CuisineDetailFragment.class);
-//                intent.putExtra(CuisineDetailFragment.ITEM_EXTRA, item);
-//                startActivity(intent);
-//            }
-//        });
+        recyclerViewAdapter.setOnItemClickCallback(new OnItemClickCallback() {
+            @Override
+            public void onItemClicked(item item) {
+                Intent moveIntent1 = new Intent(getActivity(),Detail.class);
+                moveIntent1.putExtra(Detail.ITEM_EXTRA, item);
+                startActivity(moveIntent1);
+            }
+        });
     }
 
 
