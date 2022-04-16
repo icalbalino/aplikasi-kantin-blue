@@ -92,21 +92,15 @@
 
             <!-- Buttons -->
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/btn_add_cart"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:layout_marginEnd="8dp"
-                android:text="Add to Cart"
-                app:cornerRadius="18dp"
-                style="?attr/borderlessButtonStyle"
-                android:background="#098191"
                 android:layout_gravity="center"
-                android:layout_marginBottom="13dp"
-
-                />
+                android:layout_marginBottom="20dp"
+                android:text="add to cart"
+                android:backgroundTint="#098191">
+            </Button>
 
 
         </LinearLayout>

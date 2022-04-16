@@ -19,6 +19,7 @@ import java.util.ArrayList;
 
 public class CartFragment extends Fragment {
 
+    public static final String ITEM_EXTRA = "item_extra";
     private RecyclerView recyclerView;
     private ArrayList<item> item = new ArrayList<>();
     TextView tvName, tvAmount, tvPrice, tvTotalPrice;
