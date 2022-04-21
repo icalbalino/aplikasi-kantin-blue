@@ -4,18 +4,17 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class item implements Parcelable {
+
     private String name;
     private float price;
     private int pic;
+
+    public item() { }
 
     public item(String name, float price, int pic) {
         this.name = name;
         this.price = price;
         this.pic = pic;
-    }
-
-    public item() {
-
     }
 
     protected item(Parcel in) {

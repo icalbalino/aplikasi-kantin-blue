@@ -12,44 +12,8 @@
 
         <TableLayout
             android:layout_width="match_parent"
-<<<<<<< HEAD
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="ITEM"
-                android:textSize="10pt"
-                android:layout_margin="15dp">
-            </TextView>
-            <TextView
-                android:id="@+id/tv_item_name"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Soup Dumplings"
-                android:textSize="10pt"
-                android:layout_margin="15dp">
-            </TextView>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="ADD ONS"
-                android:textSize="10pt"
-                android:layout_margin="15dp">
-            </TextView>
-            <TextView
-                android:id="@+id/tv_item_price"
-=======
             android:layout_height="wrap_content">
-
             <TableRow
->>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal">
@@ -102,16 +66,31 @@
                     android:textSize="10pt"
                     android:layout_margin="20dp">
                 </TextView>
-                <TextView
-                    android:id="@+id/item_cart_price"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="9.99"
-                    android:textSize="10pt"
-                    android:layout_margin="20dp">
-                </TextView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$ "
+                        android:textSize="10pt"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginStart="20dp">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/item_cart_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9.99"
+                        android:textSize="10pt"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp">
+                    </TextView>
+                </LinearLayout>
+
             </TableRow>
         </TableLayout>
     </com.google.android.material.card.MaterialCardView>
-
 </androidx.cardview.widget.CardView>

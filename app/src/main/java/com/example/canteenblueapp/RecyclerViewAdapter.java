@@ -74,7 +74,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             item_pic = itemView.findViewById(R.id.item_img);
             item_name = itemView.findViewById(R.id.item_name);
             item_price = itemView.findViewById(R.id.item_price);
-
         }
     }
 }

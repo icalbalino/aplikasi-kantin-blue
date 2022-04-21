@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".CartFragment">
 
@@ -17,60 +16,11 @@
         android:layout_marginBottom="20dp">
     </TextView>
 
-<<<<<<< HEAD
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_item_cart"
-        android:layout_width="match_parent"
-        android:layout_height="469dp"
-        android:layout_marginTop="25dp"
-        tools:listitem="@layout/item_cart"></androidx.recyclerview.widget.RecyclerView>
-
-<!--    <androidx.cardview.widget.CardView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="10dp">-->
-
-<!--        <com.google.android.material.card.MaterialCardView-->
-<!--            android:id="@+id/card_cart"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content">-->
-
-<!--            <TableLayout-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                >-->
-<!--                <TableRow-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="30dp"-->
-<!--                    android:gravity="end">-->
-<!--                    <TextView-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="match_parent"-->
-<!--                        android:textSize="10pt"-->
-<!--                        android:layout_margin="15dp"-->
-<!--                        >-->
-<!--                    </TextView>-->
-<!--                    <TextView-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="match_parent"-->
-<!--                        android:text="Total: $16.48"-->
-<!--                        android:textSize="10pt"-->
-<!--                        android:layout_margin="15dp"-->
-<!--&gt;-->
-<!--                    </TextView>-->
-<!--                </TableRow>-->
-<!--            </TableLayout>-->
-
-<!--        </com.google.android.material.card.MaterialCardView>-->
-
-<!--    </androidx.cardview.widget.CardView>-->
-=======
     <ImageView
         android:id="@+id/ic_no_food"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/ic_no_food"
+        android:src="@drawable/ic_fastfood"
         android:scaleType="centerCrop"
         android:contentDescription="no food"
         android:layout_gravity="center"
@@ -87,34 +37,44 @@
             android:id="@+id/card_cart_total_price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:orientation="horizontal"
                     android:gravity="end">
                     <TextView
-                        android:id="@+id/item_cart_totalAmount"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Total Price: $ "
                         android:textSize="10pt"
                         android:layout_alignParentEnd="true"
-                        android:layout_margin="20dp">
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginStart="20dp">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/item_cart_totalAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:textSize="10pt"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginEnd="20dp">
                     </TextView>
                 </TableRow>
             </TableLayout>
         </com.google.android.material.card.MaterialCardView>
     </androidx.cardview.widget.CardView>
->>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_item_cart"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="5dp"
         tools:listitem="@layout/item_cart">
     </androidx.recyclerview.widget.RecyclerView>
 

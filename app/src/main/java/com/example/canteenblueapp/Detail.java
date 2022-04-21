@@ -1,7 +1,5 @@
 package com.example.canteenblueapp;
 
-import static com.example.canteenblueapp.ItemList.getListData;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -17,25 +15,16 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
-<<<<<<< HEAD
 
-=======
->>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
 public class Detail extends AppCompatActivity {
+
     private RecyclerView recyclerView;
     private ArrayList<ItemCart> ItemCart = new ArrayList<>();
-
     private ArrayList<ItemCart> itemCarts = new ArrayList<>();
     public static final String ITEM_EXTRA = "item_extra";
-    TextView tvName;
-    TextView tvPrice, tvnn ,tvn;
+    TextView tvName, tvPrice, tvnn ,tvn;
     ImageView img;
-<<<<<<< HEAD
-    private Button btn;
-
-=======
-    Button btnAddCart;
->>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
+    Button btn, btnAddCart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +44,6 @@ public class Detail extends AppCompatActivity {
             tvPrice.setText(String.valueOf(item.getPrice()));
         }
 
-<<<<<<< HEAD
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -63,35 +51,26 @@ public class Detail extends AppCompatActivity {
                 float pr = Float.valueOf(tvPrice.getText().toString());
                 ((MyApplication) getApplication()).setNm(nm);
                 ((MyApplication) getApplication()).setPr(pr);
-
                 Toast.makeText(Detail.this, "ADD TO CART", Toast.LENGTH_SHORT).show();
             }
         });
 
-
-
-
-
-=======
-        btnAddCart = findViewById(R.id.btn_add_cart);
-
-        btnAddCart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String name;
-                float price;
-                item item = getIntent().getParcelableExtra(ITEM_EXTRA);
-
-                name = String.valueOf(item.getName());
-                price = item.getPrice();
-
-                Intent moveIntent1 = new Intent(Detail.this, CartFragment.class);
-                moveIntent1.putExtra(CartFragment.ITEM_EXTRA, item);
-                startActivity(moveIntent1);
-            }
-        });
->>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
+//        btnAddCart = findViewById(R.id.btn_add_cart);
+//        btnAddCart.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                String name;
+//                float price;
+//                item item = getIntent().getParcelableExtra(ITEM_EXTRA);
+//
+//                name = String.valueOf(item.getName());
+//                price = item.getPrice();
+//
+//                Intent moveIntent1 = new Intent(Detail.this, CartFragment.class);
+//                moveIntent1.putExtra(CartFragment.ITEM_EXTRA, item);
+//                startActivity(moveIntent1);
+//            }
+//        });
     }
-
 }
 

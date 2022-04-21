@@ -19,15 +19,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- Media -->
             <ImageView
                 android:id="@+id/dtl_img"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 app:srcCompat="@mipmap/dimsum_eggplant"
                 android:scaleType="centerCrop"
-                android:contentDescription="dimsam"
-                />
+                android:contentDescription="dimsam">
+            </ImageView>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -35,7 +34,6 @@
                 android:orientation="vertical"
                 android:padding="16dp">
 
-                <!-- Title, secondary and supporting text -->
                 <TextView
                     android:id="@+id/txt_name"
                     android:layout_width="wrap_content"
@@ -43,13 +41,13 @@
                     android:text="Food"
                     android:textSize="32sp"
                     android:textStyle="bold"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    />
+                    android:textAppearance="?attr/textAppearanceHeadline6">
+                </TextView>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
+                    android:orientation="horizontal">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -57,7 +55,8 @@
                         android:text="Price: $"
                         android:textSize="20sp"
                         android:textAppearance="?attr/textAppearanceBody2"
-                        android:textColor="?android:attr/textColorSecondary"/>
+                        android:textColor="?android:attr/textColorSecondary">
+                    </TextView>
                     <TextView
                         android:id="@+id/txt_price"
                         android:layout_width="wrap_content"
@@ -66,8 +65,10 @@
                         android:text="2,5"
                         android:textSize="20sp"
                         android:textAppearance="?attr/textAppearanceBody2"
-                        android:textColor="?android:attr/textColorSecondary"/>
+                        android:textColor="?android:attr/textColorSecondary">
+                    </TextView>
                 </LinearLayout>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -75,8 +76,8 @@
                     android:text="Description"
                     android:textAppearance="?attr/textAppearanceBody2"
                     android:textColor="?android:attr/textColorSecondary"
-                    android:textSize="15dp"
-                    />
+                    android:textSize="15dp">
+                </TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -85,32 +86,10 @@
                     android:text="Chinese eggplant filled with ground shrimp in sauce"
                     android:textAppearance="?attr/textAppearanceBody2"
                     android:textColor="?android:attr/textColorSecondary"
-                    android:textSize="15dp"
-                    />
-
-
-
+                    android:textSize="15dp">
+                </TextView>
             </LinearLayout>
 
-
-<<<<<<< HEAD
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                >
-
-                <Button
-                    android:layout_gravity="center"
-                    android:id="@+id/btn_add_cart"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_centerVertical="true"
-                    android:text="ADD To CART"
-                    android:backgroundTint="#098191">
-                </Button>
-            </com.google.android.material.card.MaterialCardView>
-=======
             <Button
                 android:id="@+id/btn_add_cart"
                 android:layout_width="wrap_content"
@@ -120,17 +99,7 @@
                 android:text="add to cart"
                 android:backgroundTint="#098191">
             </Button>
->>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
-
-
         </LinearLayout>
 
-
-
-
     </com.google.android.material.card.MaterialCardView>
-
-
-
-
 </LinearLayout>

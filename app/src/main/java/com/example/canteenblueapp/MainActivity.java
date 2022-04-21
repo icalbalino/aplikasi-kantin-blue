@@ -14,7 +14,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavView;
-//    AppBarLayout appNav;
     MaterialToolbar appNav;
 
     @Override
@@ -42,8 +41,6 @@ public class MainActivity extends AppCompatActivity {
                 .replace(R.id.content_frame, new HomeFragment())
                 .commit();
     }
-
-
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
             new BottomNavigationView.OnNavigationItemSelectedListener() {

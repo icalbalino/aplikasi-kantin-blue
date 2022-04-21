@@ -10,7 +10,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+
 public class AdapterCart extends RecyclerView.Adapter<AdapterCart.ListViewHolder>{
+
     private final ArrayList<ItemCart> listItemCart;
 
     public AdapterCart(ArrayList<ItemCart> listItemCart) {
@@ -26,7 +28,6 @@ public class AdapterCart extends RecyclerView.Adapter<AdapterCart.ListViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull ListViewHolder holder, int position) {
-
         final ItemCart ItemCart = listItemCart.get(position);
         holder.n.setText(ItemCart.getName());
         holder.k.setText(String.valueOf(ItemCart.getPrice()));
@@ -38,14 +39,13 @@ public class AdapterCart extends RecyclerView.Adapter<AdapterCart.ListViewHolder
     }
 
     public class ListViewHolder extends RecyclerView.ViewHolder {
+
         TextView n,k ;
 
         public ListViewHolder(View itemView) {
             super(itemView);
-            n = itemView.findViewById(R.id.tv_item_name);
-            k = itemView.findViewById(R.id.tv_item_price);
-
-
+            n = itemView.findViewById(R.id.item_cart_name);
+            k = itemView.findViewById(R.id.item_cart_price);
         }
     }
 }

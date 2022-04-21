@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_fastfood.xml" value="0.1045" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_menu_cart.xml" value="0.111" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_menu_favorite.xml" value="0.111" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_menu_home.xml" value="0.111" />
@@ -13,6 +14,7 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_no_food.xml" value="0.111" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_no_meals.xml" value="0.111" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_restaurant_menu.xml" value="0.111" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_restaurant_menu_1.xml" value="0.1045" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/activity_detail.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/fragment_cart.xml" value="0.22447916666666667" />
@@ -23,20 +25,6 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/item_cart.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1841880341880342" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/menu/top_app_bar.xml" value="0.1841880341880342" />
-<<<<<<< HEAD
-        <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/activity_array.xml" value="0.2" />
-        <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/activity_detail.xml" value="0.16455696202531644" />
-        <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/contoh.xml" value="0.2" />
-        <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/empty_cart.xml" value="0.2" />
-        <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/fragment_cart.xml" value="0.12" />
-        <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/fragment_cuisine_detail.xml" value="0.2" />
-        <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/fragment_search.xml" value="0.2" />
-        <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/item.xml" value="0.1" />
-        <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/item_cart.xml" value="0.10194174757281553" />
-=======
->>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
       </map>
     </option>
   </component>
