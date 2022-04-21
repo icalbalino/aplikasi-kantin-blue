@@ -1,9 +1,13 @@
 package com.example.canteenblueapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,6 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class CartFragment extends Fragment {
+<<<<<<< HEAD
     private ArrayList<ItemCart> itemgetset = new ArrayList<>();
     RecyclerView rv;
     @Nullable
@@ -30,10 +35,34 @@ public class CartFragment extends Fragment {
         }else{
 
         }
+=======
+
+    public static final String ITEM_EXTRA = "item_extra";
+    private RecyclerView recyclerView;
+    private ArrayList<item> item = new ArrayList<>();
+    TextView tvName, tvAmount, tvPrice, tvTotalPrice;
+    private int amount;
+    private float totalAmount;
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_cart, container, false);
+
+        recyclerView = view.findViewById(R.id.rv_item_cart);
+        item.addAll(ItemList.getListData());
+        showRecyclerView();
+>>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
 
         return view;
     }
 
+<<<<<<< HEAD
     private void show(){
         rv.setLayoutManager(new LinearLayoutManager(getActivity()));
         AdapterCart AdapterCart = new AdapterCart(itemgetset);
@@ -58,5 +87,13 @@ public class CartFragment extends Fragment {
             list.add(ItemCart);}
         return list;
 
+=======
+    private void showRecyclerView() {
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        RecyclerViewAdapterCart recyclerViewAdapterCart = new RecyclerViewAdapterCart(item);
+        recyclerView.setAdapter(recyclerViewAdapterCart);
+>>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
     }
+
+
 }

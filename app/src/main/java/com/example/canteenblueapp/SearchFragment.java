@@ -11,7 +11,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.Button;
+=======
+>>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
 
 import java.util.ArrayList;
 
@@ -19,30 +22,11 @@ import java.util.ArrayList;
 public class SearchFragment extends Fragment {
     public static final String ITEM_EXTRA = "item_extra";
     private RecyclerView recyclerView;
-    private Button btn_item;
     private ArrayList<item> item = new ArrayList<>();
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-    private String mParam1;
-    private String mParam2;
-    public SearchFragment(){ }
-
-    public static SearchFragment newInstance(String param1,String param2){
-        SearchFragment fragment = new SearchFragment();
-        Bundle arg= new Bundle();
-        arg.putString(ARG_PARAM1,param1);
-        arg.putString(ARG_PARAM2,param2);
-        fragment.setArguments(arg);
-        return fragment;
-    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override
@@ -52,7 +36,6 @@ public class SearchFragment extends Fragment {
         recyclerView.setHasFixedSize(true);
         item.addAll(ItemList.getListData());
         showRecyclerView();
-        btn_item = view.findViewById(R.id.item_btn);
 
 
         return view;
@@ -79,6 +62,7 @@ public class SearchFragment extends Fragment {
 
 
     }
+<<<<<<< HEAD
 
 //    static ArrayList<getset> getData(){
 //        ArrayList<getset> list = new ArrayList<>();
@@ -92,4 +76,6 @@ public class SearchFragment extends Fragment {
 //    }
 
 
+=======
+>>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
 }

@@ -9,15 +9,21 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_menu_nav.xml" value="0.111" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_menu_search.xml" value="0.111" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_menu_star.xml" value="0.111" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_menu_time.xml" value="0.111" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_no_food.xml" value="0.111" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_no_meals.xml" value="0.111" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/drawable/ic_restaurant_menu.xml" value="0.111" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/activity_detail.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/fragment_cart.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/fragment_cuisine_detail.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/fragment_home.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/fragment_search.xml" value="0.25" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/item.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/item.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/layout/item_cart.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1841880341880342" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CanteenBlueApp/app/src/main/res/menu/top_app_bar.xml" value="0.1841880341880342" />
+<<<<<<< HEAD
         <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/activity_array.xml" value="0.2" />
         <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/activity_detail.xml" value="0.16455696202531644" />
         <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/activity_main.xml" value="0.2" />
@@ -29,10 +35,12 @@
         <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/fragment_search.xml" value="0.2" />
         <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/item.xml" value="0.1" />
         <entry key="..\:/study/TR_PAM 2/aplikasi-kantin-blue/app/src/main/res/layout/item_cart.xml" value="0.10194174757281553" />
+=======
+>>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

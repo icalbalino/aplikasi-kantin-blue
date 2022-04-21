@@ -14,13 +14,9 @@ public class item implements Parcelable {
         this.pic = pic;
     }
 
-
-
-
     public item() {
 
     }
-
 
     protected item(Parcel in) {
         name = in.readString();

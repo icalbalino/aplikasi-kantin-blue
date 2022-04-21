@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Detail"
     android:orientation="vertical">
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
         android:layout_width="match_parent"
@@ -92,6 +93,7 @@
             </LinearLayout>
 
 
+<<<<<<< HEAD
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -108,6 +110,17 @@
                     android:backgroundTint="#098191">
                 </Button>
             </com.google.android.material.card.MaterialCardView>
+=======
+            <Button
+                android:id="@+id/btn_add_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="add to cart"
+                android:backgroundTint="#098191">
+            </Button>
+>>>>>>> f4ff316c731a03a30de05a3d87e3434a5ff6affa
 
 
         </LinearLayout>
