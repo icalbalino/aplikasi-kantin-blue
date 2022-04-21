@@ -26,6 +26,7 @@
                 android:layout_margin="15dp">
             </TextView>
             <TextView
+                android:id="@+id/tv_item_name"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Soup Dumplings"
@@ -46,6 +47,7 @@
                 android:layout_margin="15dp">
             </TextView>
             <TextView
+                android:id="@+id/tv_item_price"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="none"

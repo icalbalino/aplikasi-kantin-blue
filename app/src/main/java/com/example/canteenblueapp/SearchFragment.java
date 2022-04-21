@@ -1,11 +1,9 @@
 package com.example.canteenblueapp;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -14,13 +12,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
 
 public class SearchFragment extends Fragment {
-
+    public static final String ITEM_EXTRA = "item_extra";
     private RecyclerView recyclerView;
     private Button btn_item;
     private ArrayList<item> item = new ArrayList<>();
@@ -57,13 +54,18 @@ public class SearchFragment extends Fragment {
         showRecyclerView();
         btn_item = view.findViewById(R.id.item_btn);
 
+
         return view;
     }
+
+
 
     private void showRecyclerView() {
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(item);
         recyclerView.setAdapter(recyclerViewAdapter);
+
+
 
         recyclerViewAdapter.setOnItemClickCallback(new OnItemClickCallback() {
             @Override
@@ -73,7 +75,21 @@ public class SearchFragment extends Fragment {
                 startActivity(moveIntent1);
             }
         });
+
+
+
     }
+
+//    static ArrayList<getset> getData(){
+//        ArrayList<getset> list = new ArrayList<>();
+//        getset get = new getset();
+//        temp t = new temp();
+//        get.setName(t.getN());
+//        get.setPrice(t.getP());
+//        list.add(get);
+//
+//        return list;
+//    }
 
 
 }

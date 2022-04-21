@@ -1,10 +1,8 @@
 package com.example.canteenblueapp;
 
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -15,6 +13,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
 import java.util.ArrayList;
+
 
 interface OnItemClickCallback {
     void onItemClicked(item item);
@@ -30,8 +29,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         this.onItemClickCallback = onItemClickCallback;
     }
 
-    public RecyclerViewAdapter(ArrayList<item>list){
+    public RecyclerViewAdapter(ArrayList<item> list){
         this.listItem = list;
+
     }
 
     @NonNull

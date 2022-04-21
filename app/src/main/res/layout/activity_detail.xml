@@ -87,27 +87,33 @@
                     android:textSize="15dp"
                     />
 
+
+
             </LinearLayout>
 
-            <!-- Buttons -->
 
-            <com.google.android.material.button.MaterialButton
-                android:layout_width="wrap_content"
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:layout_marginEnd="8dp"
-                android:text="Add to Cart"
-                app:cornerRadius="18dp"
-                style="?attr/borderlessButtonStyle"
-                android:background="#098191"
-                android:layout_gravity="center"
-                android:layout_marginBottom="13dp"
+                >
 
-                />
+                <Button
+                    android:layout_gravity="center"
+                    android:id="@+id/btn_add_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="ADD To CART"
+                    android:backgroundTint="#098191">
+                </Button>
+            </com.google.android.material.card.MaterialCardView>
 
 
         </LinearLayout>
+
+
+
 
     </com.google.android.material.card.MaterialCardView>
 
